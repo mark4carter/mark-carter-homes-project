@@ -5831,9 +5831,10 @@ body {
   .gif-player img {
     width: 100%;
     max-height: 600px; }
-  .gif-player #get-giphy-btn {
-    cursor: pointer;
-    cursor: hand; }
+
+#get-giphy-btn {
+  cursor: pointer;
+  cursor: hand; }
 
 .outer-thumbnail-container {
   border-bottom: 1px #555555 dotted;
