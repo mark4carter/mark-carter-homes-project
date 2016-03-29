@@ -1,0 +1,5 @@
+<ul class="list-inline thumbnail-list">
+	<li class="thumbnail-giphy" ng-repeat="image in images" >
+		<img class="thumbnail-image" ng-click="giphySelectionService.selectByIndex($index)" ng-src="{{image.images.original_still.url}}" ng-class="image.visible ? 'selected-giphy' : 'nonselected-giphy'"/>
+	</li>
+</ul>

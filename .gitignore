@@ -1,0 +1,16 @@
+# Default from Anuglar Seed 
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
+
+# Tests not implemented 
+e2e-tests/
+
+
+# SASS #
+.sass-cache/
+.css.map

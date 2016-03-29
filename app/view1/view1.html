@@ -1,0 +1,25 @@
+<section class="gif-container container">
+	<div class="middle-container">
+		<div class="gif-player">
+			<img id="spinner" ng-src="lib/images/loading-pug.gif" ng-show='giphySelectionService.isLoading'>
+			<slideshow images='giphySelectionService.getGiphyData()' currentIndex='giphySelectionService.currentIndex'>
+			</slideshow>
+		  <!--<img ng-src="{{giphyData[0].images.original.url}}">-->
+		</div>
+
+		<!-- Title + facepile -->
+		<div class="outer-thumbnail-container clearfix">
+		  <h1 class="col-md-8"><giphythumbs images="giphySelectionService.getGiphyData()"></giphythumbs></h1>
+		  <div class="arrow-container col-md-4">
+		    <ul class="list-inline selection-list">
+		    	<li ng-click="giphySelectionService.prev()"><i class="glyphicon glyphicon-menu-left"></i></li>
+		      <li ng-click="giphySelectionService.next()"><i class="glyphicon glyphicon-menu-right"></i></li>
+	      	</ul>
+		  </div>
+		</div>
+
+		<!-- Description -->
+		<div class="gif-description">
+		</div>
+	</div>
+</section>
