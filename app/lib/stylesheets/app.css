@@ -5821,6 +5821,11 @@ body {
     margin-right: 20px; }
     .navctrl .search-input-list input, .navctrl .search-input-list select, .navctrl .search-input-list textarea {
       color: #000000; }
+  .navctrl .nav-name {
+    color: #ffffff;
+    text-shadow: 0 0 8px #000000;
+    font-size: 2em;
+    margin-left: 10px; }
 
 .gif-player {
   position: relative;

@@ -15,6 +15,13 @@ body {
 			color: $black;
 		}
 	}
+
+	.nav-name {
+		color: $white;
+		text-shadow: 0 0 8px $black;
+		font-size: 2em;
+		margin-left: 10px;
+	}
 }
 
 .gif-player {
