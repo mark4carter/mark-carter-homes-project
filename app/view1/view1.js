@@ -40,7 +40,7 @@ view1.factory('GiphyHTTPService', function($q, $http, GiphySelectionService) {
 			var encodedGiphyInput = encodeURIComponent(giphySearchInput);
 			$http.get("http://api.giphy.com/v1/gifs/search?q=" +
 				encodedGiphyInput +
-				"&api_key=dc6zaTOxFJmzC&limit=5")
+				"&api_key=dc6zaTOxFJmzC&limit=6")
 			.success(function(data) {
 				setTimeout(function(){
 					GiphySelectionService.isLoading = false;

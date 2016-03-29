@@ -5829,10 +5829,12 @@ body {
 
 .gif-player {
   position: relative;
-  margin-top: 10px;
+  margin-top: 20px;
   border-bottom: 0.5px solid #000000;
   box-shadow: 0px 0px 15px #000000;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 98%;
+  margin-left: 1%; }
   .gif-player img {
     width: 100%;
     max-height: 600px; }
@@ -5844,8 +5846,11 @@ body {
 .outer-thumbnail-container {
   border-bottom: 1px #555555 dotted;
   background-color: #101010;
-  margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: -3%;
+  margin-right: -3%;
+  padding-left: 1%; }
   .outer-thumbnail-container h1 {
     padding-left: 0; }
 
@@ -5853,14 +5858,15 @@ body {
   padding: 20px 0; }
 
 .thumbnail-list {
-  display: flex; }
+  display: flex;
+  margin-right: -3%; }
 
 .thumbnail-giphy {
   flex: 1;
   text-align: center; }
   .thumbnail-giphy img {
     height: 100px;
-    width: 100px; }
+    width: 120px; }
     .thumbnail-giphy img:hover {
       opacity: 1; }
   .thumbnail-giphy .selected-giphy {
