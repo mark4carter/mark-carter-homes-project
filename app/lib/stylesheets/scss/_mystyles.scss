@@ -1,5 +1,5 @@
 body {
-	background-color: #202020;
+	background-color: $body-background-color;
 	padding-top:51px;
 	color: $white;
 }
@@ -28,13 +28,13 @@ body {
 		width:100%;
 		max-height: 600px;
 	}
+
+	#get-giphy-btn {
+		cursor: pointer;
+		cursor: hand;
+	}
 }
 
-
-#get-giphy-btn {
-	cursor: pointer;
-	cursor: hand;
-}
 
 .outer-thumbnail-container {
 	border-bottom:1px $gray dotted;

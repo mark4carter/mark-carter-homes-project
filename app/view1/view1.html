@@ -4,10 +4,8 @@
 			<img id="spinner" ng-src="lib/images/loading-pug.gif" ng-show='giphySelectionService.isLoading'>
 			<slideshow images='giphySelectionService.getGiphyData()' currentIndex='giphySelectionService.currentIndex'>
 			</slideshow>
-		  <!--<img ng-src="{{giphyData[0].images.original.url}}">-->
 		</div>
 
-		<!-- Title + facepile -->
 		<div class="outer-thumbnail-container clearfix">
 		  <h1 class="col-md-8"><giphythumbs images="giphySelectionService.getGiphyData()"></giphythumbs></h1>
 		  <div class="arrow-container col-md-4">
@@ -18,7 +16,6 @@
 		  </div>
 		</div>
 
-		<!-- Description -->
 		<div class="gif-description">
 		</div>
 	</div>
